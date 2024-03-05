@@ -1,0 +1,40 @@
+.content_infoEmpresa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+    /* box-shadow: 1px 8px 20px 0px rgba(0,0,0,0.75); */
+    box-shadow: 1px 8px 20px 5px rgba(0,0,0,0.75);
+    z-index: 1;
+}
+
+.img_infoEmpresa{
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.content_infoEmpresa__text{
+    background-color: white;
+}
+
+.title__infoEmpresa{
+    text-align: center;
+    font-weight: bold;
+}
+
+.text__infoEmpresa {
+    margin: 2rem;
+    text-align: start;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+@media (max-width: 900px){
+    .content_infoEmpresa{
+        grid-template-columns: 1fr;
+    }
+
+    .img_infoEmpresa{
+        display: none;
+    }
+}
