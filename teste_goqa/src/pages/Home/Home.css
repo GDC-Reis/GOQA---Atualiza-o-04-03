@@ -90,7 +90,7 @@ body{
 
 @media (min-width: 1920px){
     .container_card_info__title::after {
-        margin-left: 46.5rem;
+        margin-left: 49.5rem;
     }
 
     .teste_title h1::after{
