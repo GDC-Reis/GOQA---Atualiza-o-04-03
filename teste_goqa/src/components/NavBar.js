@@ -18,9 +18,9 @@ const NavBar = () => {
             <div className="navbar__li">
                     <ul className="navbar__li__items">
                         <NavLink className="hover-3" to="/">Início</NavLink>
-                        <NavLink className="hover-3" to="/construcao">Sobre</NavLink>
-                        <NavLink className="hover-3" to="/construcao">Serviços</NavLink>
-                        <NavLink className="hover-3" to="/construcao">Contato</NavLink>
+                        <a href="#InfoEmpresa" className="hover-3">Sobre</a>
+                        <a href="#ServicosOferecidos" className="hover-3">Serviços</a>
+                        <a href="#Contato" className="hover-3">Contato</a>
                         <a href="https://www.google.com/" className="hover-3">Blog</a>
                     </ul>
             </div>

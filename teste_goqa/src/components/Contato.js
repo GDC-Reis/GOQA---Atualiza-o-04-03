@@ -80,14 +80,14 @@ const Contato = () => {
                         
                         <ul className="lista_contatos__conteudo__endereco">
                             <h3>Endereço</h3>
-                            <li><span>Rua : </span>Lourdes Aparecida Miquelini dos Passos</li>
-                            <li><span>Bairro : </span>Jardim Marialice</li>
-                            <li><span>Cidade : </span>Araraquara</li>
+                            <li><span>Rua : </span>Samuel Brasil Bueno - 445</li>
+                            <li><span>Bairro : </span>Solidariedade</li>
+                            <li><span>Cidade : </span>Araraquara - SP</li>
                         </ul>
 
                         <ul className="lista_contatos__conteudo__telefone">
                             <h3>Telefone</h3>
-                            <li>+55 (00) 00000-0000</li>
+                            <li>+55 (16) 99773-2624</li>
                         </ul>
             
                     </div>

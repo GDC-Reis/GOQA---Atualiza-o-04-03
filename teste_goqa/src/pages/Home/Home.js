@@ -21,19 +21,19 @@ import ImgWhatsapp from '../../img/new_img/Whatsapp.svg';
 const Home = () => {
     return ( 
         <body>
+                <Img_BG className='teste_img'/>
 
                 <section className='container_img_bg'>
-                    <Img_BG className='teste_img'/>
                     <div className='container_img_bg_intro_text'>
                         <span>GOQA </span> <br/> <span>QUALITY ASSURANCE</span>
                     </div>
                 </section>
 
-                <section className='container_infoEmpresa'>
+                <section className='container_infoEmpresa' id='InfoEmpresa'>
                     <InfoEmpresa/>
                 </section>
 
-                <section className='container_card_info'>
+                <section className='container_card_info' id='ServicosOferecidos'>
                     <h1 className='container_card_info__title'>Serviços Oferecidos</h1>
                     
                     <div className='container_card_info__itens'>
@@ -105,7 +105,7 @@ const Home = () => {
                     </div>
 
 
-                    <div className='container_contato'>
+                    <div className='container_contato' id='Contato'>
                             <Contato/>
                     </div>
                     
